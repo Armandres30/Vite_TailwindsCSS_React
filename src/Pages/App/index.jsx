@@ -18,6 +18,9 @@ const AppRoutes = () => {
     { path: '/sign-in', element: <Signin />},
     { path: '/*', element: <NotFound />},
   ])
+
+  return routes
+  
 }
 
 const App = () => {
