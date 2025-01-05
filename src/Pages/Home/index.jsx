@@ -41,11 +41,6 @@ function Home() {
           placeholder='Search a product By Title' 
           className='rounded-lg border border-black w-80 p-4 mb-4 focus:outline-none'
           onChange={(event) => context.setSearchByTitle(event.target.value)}/>
-        <input 
-          type="text" 
-          placeholder='Search a product By Category' 
-          className='rounded-lg border border-black w-80 p-4 mb-4 focus:outline-none'
-          onChange={(event) => context.setSearchByCategory(event.target.value)}/>
         <div className='grid gap-4 grid-cols-4 w-full max-w-screen-lg'>
           {renderView()}
         </div>
